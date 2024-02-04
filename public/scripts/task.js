@@ -9,6 +9,7 @@ async function setTagAsDone(element, id) {
         let parent = element.parentNode;
 
 
+        
         if (task.done == false) {
             element.checked = true;
             parent.classList.add('has-text-success');
