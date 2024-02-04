@@ -1,0 +1,41 @@
+# Checklists
+
+GET http://localhost:3000/checklists
+
+###
+
+# Checklists
+
+POST http://localhost:3000/checklists
+Content-Type: application/json
+
+{
+    "name" : "Criar uma api intermediária"
+}
+
+
+###
+# Checklist/:id
+
+GET http://localhost:3000/checklists/655a87c5f891ebb7b6adf52e
+
+###
+
+# PUT Checklist/:id
+
+PUT http://localhost:3000/checklists/655d65415b3cc7a2fc38cb36
+Content-Type: application/json
+
+{
+    "name": "testar novo código"
+}
+
+
+###
+
+# DELETE Checklist/:id
+
+DELETE http://localhost:3000/checklists/655a8932f891ebb7b6adf530
+
+###
+
