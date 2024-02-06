@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "builds" [
+        {
+        "src": "config/app.js",
+        "use": "@vercel/node"
+
+        }
+
+    ],
+    "routes": [
+        {
+        "src": "(.*)",
+        "dest": "src/routes/checklist.js"
+        },
+        {
+            "src": "(.*)",
+            "dest": "src/routes/index.js"
+        },
+        {
+            "src": "(.*)",
+            "dest": "src/routes/task.js"
+        }
+    ]
+}
