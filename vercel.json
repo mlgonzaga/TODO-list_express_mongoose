@@ -1,10 +1,9 @@
 {
     "version": 2,
-    "builds" [
+    "builds" :[
         {
         "src": "config/app.js",
         "use": "@vercel/node"
-
         }
 
     ],
